@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("button").click(function () {
+        $("#content").fadeToggle("slow");
+        $("aside").fadeToggle("slow");
+      });
+    });
+  </script>
+  <title>Web Portfolio</title>
+  <style>
+    .list {
+      list-style-type: none;
+    }
+
+    .list a[href] {
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="jumbotron">
+      <h1 style="color: white;">Send a message!</h1>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="./image/foto.png" class="profile"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container mt-4" style="margin-bottom: 100px; min-height: 35vh;">
+
+
+    <div class="card" style="padding: 10px; box-shadow: 3px 3px 3px gray;">
+      <button style="border: none; background-color: white;">Click Here to Hide/Show</button>
+    </div>
+
+    <br><br>
+
+    <div id="content">
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"><b>Message</b></label><br>
+          <textarea class="form-control" id="exampleInputEmail1" name="exampleInputEmail1" cols="50"></textarea>
+        </div>
+        <button type="submit" class="btn btn-secondary"
+          style="color: black;background-color: lightgrey;border: none;">Send Message</button>
+      </form>
+    </div>
+
+    <aside>
+      <p><b>For any inquiries , please contact me in :</b></p>
+      <table>
+        <tr>
+          <td>Address : </td>
+          <td style="color: #0054FF;">Jawa Barat</td>
+        </tr>
+        <tr>
+          <td>Twitter : </td>
+          <td style="color: #0054FF;">@amlptr18 </td>
+        </tr>
+        <tr>
+          <td>Email : </td>
+          <td style="color: #0054FF;">amellptr198@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Instagram : </td>
+          <td style="color: #0054FF;">ameeelpt</td>
+        </tr>
+      </table>
+    </aside>
+  </main>
+
+
+  <footer>
+    <center><a>Footer - AMELIA PUTRI</a></center>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
