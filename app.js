@@ -10,7 +10,7 @@ Vue.createApp({
     getHeaderData() {
       axios
         .get(
-          "https://ameliaputri09.github.io/Tekweb2022/contents/header.json"
+          "https://ameliaputri09.github.io/tekweb2022/contents/header.json"
         )
         .then((res) => {
           this.header = res.data;
@@ -24,7 +24,7 @@ Vue.createApp({
     getArticles() {
       axios
         .get(
-          "https://ameliaputri09.github.io/Tekweb2022/contents/articles.json"
+          "https://ameliaputri09.github.io/tekweb2022/contents/articles.json"
         )
         .then((res) => {
           this.articles = res.data;
