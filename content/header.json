@@ -1,0 +1,17 @@
+{
+  "name": "Amelia Putri",
+  "description": "Hello , my name is Amelia Putri , i am 19 years old , i was born on September 11 , 2002.",
+  "hobby": {
+    "coffee": {
+      "title": "Coffee Hunter",
+      "desc": "I like to find a café located in Yogyakarta. The city has a lot of good places and hidden gems that people don't know yet.",
+      "image": "kopi.jpg"
+    },
+    "travelling": {
+      "title": "Travelling",
+      "desc": "My biggest hobby is travelling , and i wish i could travel around the world ! Other than that i also like cooking, driving, writting, watching, organize room, and design.",
+      "image": "hobby1.jpeg"
+    }
+  },
+  "imageProfile": "foto.png"
+}

@@ -13,7 +13,7 @@ Vue.createApp({
       console.log(article);
       axios
         .get(
-          "https://ameliaputri09.github.io/tekweb2022_amel/contents/" + article
+          "./contents/" + article
         )
         .then((res) => {
           var html = converter.makeHtml(res.data);
